@@ -1,0 +1,9 @@
+#DB
+spring:
+    profiles:
+        include: "db"
+
+#MyBatis Camel Case Setting
+mybatis:
+    configuration:
+        map-underscore-to-camel-case: true
